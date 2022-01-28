@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- font-awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="pbtn" style="height: 72px; display: flex;align-items: center;justify-content: center;">
+        <a href="#">حساب جديد</a>
+        <a class="" href="#">دخول</a>
+      </div>
+      <form>
+        <input type="text" placeholder="search...">
+      </form>
+      <div class="right">
+      <img src="https://statics.abwaab.me/statics/images/WebP/logos/horizontal.webp" width="150px"  alt="">
+      <i id="menu" class="fas fa-bars" style="margin-left: 20px;"></i>
+    </div>
+    </div>
+  </div>
+  <div class="header2">
+    <div class="container">
+      <img src="https://abwaab.me/img/bannar-exam.2613ae5d.png" alt="">
+      <p>الإمتحانات مجرد لعبة.العبها صح مع أبواب</p>
+      <button class="btn" href="#">أبدأ مراجعتك </button>
+    </div>
+  </div>
+  <nav id="nav">
+    <div class="reg">
+      <a href="#">تسجيل</a>
+      <a style="margin-top: 20px;" href="#">تسجيل الدخول</a>
+    </div>
+    
+
+  </nav>
+  <script>
+      let menu = document.getElementById("menu");
+
+      menu.onclick = function(){
+        document.getElementById("nav").classList.toggle ("active");
+      }
+  </script>
+</body>
+</html>
